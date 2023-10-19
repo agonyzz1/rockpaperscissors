@@ -1,0 +1,73 @@
+.rock-icon {
+  background-image: url(rock-icons/rock.png);
+  background-size: cover;
+  width:300px;
+  height:400px;
+  font-size: 25px;
+  margin-bottom:100px;
+  cursor:pointer;
+  color:black;
+  font-family: Roboto, Arial;
+  border:none;
+  transition: box-shadow 0.15s;
+  font-weight:bold;
+}
+
+.rock-icon:hover {
+ opacity:0.8;
+}
+.rock-icon:active {
+  opacity:0.5;
+}
+
+.paper-icon {
+  background-image: url(rock-icons/paper.png);
+  background-size: cover;
+  width:300px;
+  height:400px;
+  font-size: 25px;
+  color:black;
+  font-family:Roboto,Arial; ;
+  border:none;
+  cursor:pointer;
+  transition: box-shadow 0.15s;
+  font-weight: bold;
+}
+.paper-icon:hover {
+  opacity: 0.8;
+}
+.paper-icon:active {
+  opacity:0.5;
+}
+
+.scissors-icon {
+  background-image: url(rock-icons/scissors.png);
+  background-size: cover;
+  width:300px;
+  height:400px;
+  font-size: 25px;
+  font-family:Roboto,Arial;
+  border:none;
+  cursor:pointer;
+  transition: box-shadow 0.15s;
+  font-weight:bold;
+  
+  
+}
+.scissors-icon:hover {
+  opacity:0.8;
+}
+.scissors-icon:active {
+  opacity:0.5;
+}
+
+.apple-text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-family:Roboto, Arial;
+}
